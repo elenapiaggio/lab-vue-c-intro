@@ -15,16 +15,25 @@ const props = defineProps({
 </template>
 
 <style>
-
 .info-card {
   text-align: center;
   padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .info-card img {
   width: 80px;
   margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
 
+p {
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
 </style>
